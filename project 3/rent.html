@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>User registration System</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+
+   
+    
+
+<body>
+    <div class= "rentbox">
+      <h1>Reservation  </h1>
+   <form method="POST" action="rent.php">
+<p>Full Name </p>
+<input type="text" name ="fname" placeholder="Enter full name" required>
+<p>Payment</p>
+<input type="number" name = "pay_ment" placeholder="Make payment" required>
+<p>Telephone Number</p>
+<input type="contact" name = "phone_number" placeholder="+233" required>
+<p>Select Vehicle</p>
+<select  id="cars" name="vehicle" required>
+    <option value=" ">Select Vehicle</option>
+    <option value="Blue BMW Coupe">Blue BMW Coupe</option>
+    <option value="Black Mercedes Benz Convertible Coupe SI Class">Black Mercedes Benz Convertible Coupe SI Class</option>
+    <option value="Blue Wagon Audi">Blue Wagon Audi</option>
+    <option value="Honda Civic">Honda Civic</option>
+    </select>
+    <p> Date</p>
+<input type="date" name = "date" placeholder="Enter Date" required>
+<p> Duration of Reservation</p>
+<input type="text" name = "duration" placeholder="Enter the Duration" required>
+
+<input type="Submit" name= "rent" value="Rent">
+
+
+    <p>
+        Already a member? <a href= "index.html" > Home</a> 
+    </p>
+    
+    </form>
+    </div>
+</body>
+</html>

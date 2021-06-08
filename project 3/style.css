@@ -1,0 +1,434 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url(wheel.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+ } 
+ .loginbox{
+width: 320px;
+height: 420px;
+background: #000;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 30px;
+ }
+ .avatar{
+   width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc( 50%  -50px);
+ }
+
+ h1{
+     margin: 0;
+     padding: 0 0 20px;
+     text-align: center;
+     font-size:  22px;
+ }
+
+ .loginbox p {
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+ }
+ .loginbox input{
+     width: 100%;
+     margin-bottom:  20px;
+
+ }
+ .loginbox  input[type="password"]
+ {
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color: #fff;   
+    font-size: 16px;
+
+ }
+ .loginbox  input[type="text"]
+ {
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color: #fff;   
+    font-size: 16px;
+ }
+.loginbox input[type="submit"]
+{ 
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px; 
+ 
+}
+ .loginbox input[type="submit"]:hover
+ {
+     cursor : pointer;
+     background: #ffc107;
+     color: #000;
+
+}
+.loginbox a{
+
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+.full-page{
+
+    height: 100%;
+    width: 100%;
+    
+}
+.navbar
+{
+
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+nav{
+ flex:1;
+ text-align: right;
+
+}
+nav ul{
+ display: inline-block;
+ list-style: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right: 70px;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color:  #faf2f2;
+    font-family: sans-serif;
+}
+
+nav ul li button {
+font-size: 20px;
+color: white;
+outline: none;
+border: none;
+background: transparent;
+cursor: pointer;
+font-family: sans-serif;
+
+}
+ nav ul li button:hover
+ {
+     color: aqua;
+
+ }
+ nav ul li a:hover{
+     color: aqua;
+ }
+
+ 
+
+
+.registerbox{
+    width: 380px;
+    height: 560px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+     }
+    
+     
+    
+     h1{
+         margin: 0;
+         padding: 0 0 20px;
+         text-align: center;
+         font-size:  40px;
+     }
+    
+     .registerbox p {
+    
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    
+     }
+     .registerbox input{
+         width: 100%;
+         margin-bottom:  20px;
+    
+     }
+     .registerbox  input[type="password"]
+     {
+    
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height : 40px;
+        color: #fff;   
+        font-size: 16px;
+    
+     }
+     .registerbox  input[type="text"]
+     {
+    
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height : 40px;
+        color: #fff;   
+        font-size: 16px;
+     }
+     .registerbox  input[type="email"]
+     {
+    
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height : 40px;
+        color: #fff;   
+        font-size: 16px;
+     }
+     .registerbox  input[type="confirm password"]
+     {
+    
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height : 40px;
+        color: #fff;   
+        font-size: 16px;
+     }
+    .registerbox input[type="submit"]
+    { 
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px; 
+     
+    }
+     .registerbox input[type="submit"]:hover
+     {
+         cursor : pointer;
+         background: #ffc107;
+         color: #000;
+    
+    }
+    .registerbox a{
+    
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+    
+    .registerbox a:hover
+    {
+        color: #ffc107;
+    }
+    
+    .full-page{
+    
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    .header{
+        margin-left: 50px;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .hero{
+        margin-top: 120px;
+        margin-left: 50px;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: left;
+        color: #dfd7d7;
+        display: block;
+  margin-left: 150px;
+  margin-right: 500px;
+  width: 40%;
+    }
+    .rentbox{
+        width: 380px;
+        height: 630px;
+        background: #000;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 30px 30px;
+         }
+         .rentbox input[type="submit"]:hover
+         {
+             cursor : pointer;
+             background: #ffc107;
+             color: #000;}
+
+             h1{
+                margin: 0;
+                padding: 0 0 20px;
+                text-align: center;
+                font-size:  40px;
+            }
+           
+            .rentbox p {
+           
+               margin: 0;
+               padding: 0;
+               font-weight: bold;
+           
+            }
+            .rentbox input{
+                width: 100%;
+                margin-bottom:  20px;
+           
+            }
+            .rentbox  input[type="text"]
+            {
+           
+               border: none;
+               border-bottom: 1px solid #fff;
+               background: transparent;
+               outline: none;
+               height : 40px;
+               color: #fff;   
+               font-size: 16px;
+           
+            }
+            .rentbox  input[type="number"]
+            {
+           
+               border: none;
+               border-bottom: 1px solid #fff;
+               background: transparent;
+               outline: none;
+               height : 40px;
+               color: #fff;   
+               font-size: 16px;
+            }
+            .rentbox  input[type="date"]
+            {
+           
+               border: none;
+               border-bottom: 1px solid #fff;
+               background: transparent;
+               outline: none;
+               height : 40px;
+               color: #fff;   
+               font-size: 16px;
+            }
+            .rentbox  input[type="contact"]
+            {
+           
+               border: none;
+               border-bottom: 1px solid #fff;
+               background: transparent;
+               outline: none;
+               height : 40px;
+               color: #fff;   
+               font-size: 16px;
+            }
+            #cars
+            {
+                width: 100%;
+               border: none;
+               border-bottom: 1px solid #fff;
+               background: transparent;
+               outline: none;
+               height : 40px;
+               color: grey;   
+               font-size: 16px;
+            }
+            .rentbox  input[type="range"]
+            {
+           
+               border: none;
+               border-bottom: 1px solid #fff;
+               background: transparent;
+               outline: none;
+               height : 40px;
+               color: #fff;   
+               font-size: 16px;
+            }
+           .rentbox input[type="submit"]
+           { 
+               border: none;
+               outline: none;
+               height: 40px;
+               background: #fb2525;
+               color: #fff;
+               font-size: 18px;
+               border-radius: 20px; 
+            
+           }
+            .rentbox input[type="submit"]:hover
+            {
+                cursor : pointer;
+                background: #ffc107;
+                color: #000;
+           
+           }
+           .rentbox a{
+           
+               text-decoration: none;
+               font-size: 12px;
+               line-height: 20px;
+               color: darkgrey;
+           }
+           
+           .rentbox a:hover
+           {
+               color: #ffc107;
+           }
